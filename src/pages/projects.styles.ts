@@ -8,12 +8,15 @@ export const MainContainer = styled.main`
     gap: 2rem;
     padding: 2rem 2rem;
 
-    div {
+    .element {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
     }
+
+    /* Extra small devices (phones, 600px and down) */
+    
     
     .title {
         font-size: 48px;
@@ -23,11 +26,16 @@ export const MainContainer = styled.main`
 
     .text-container {
         display: flex;
+        flex-direction: column;
         align-items: flex-start;
         gap: 2rem;
         font-size: large;
         margin-top: 1rem;
         padding-left: 2rem;
+
+        @media only screen and (max-width: 600px) {
+            padding-left: 0;
+        }
 
         div {
             display: flex;
@@ -35,10 +43,29 @@ export const MainContainer = styled.main`
         }
     }
 
+    .video-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0.5rem;
+
+        @media only screen and (max-width: 600px) {
+            flex-direction: column;
+        }
+
+        video {
+            border-radius: 15px;
+        }
+    }
+
     h1 {
         font-size: 30px;
         font-family: 'Lexend', sans-serif;
         font-weight: 400;
+
+        @media only screen and (max-width: 600px) {
+            font-size: 24px
+        }
     }
 
     h2 {

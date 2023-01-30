@@ -29,6 +29,10 @@ export const MainContainer = styled.main`
         margin-top: 1rem;
         padding-left: 2rem;
 
+        @media only screen and (max-width: 600px) {
+            padding-left: 0;
+        }
+
         div {
             display: flex;
             align-items: flex-start;
