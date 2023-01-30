@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gamedev-portfolio/static/css/main.a28be2f2.css",
+    "main.js": "/gamedev-portfolio/static/js/main.03da306e.js",
+    "index.html": "/gamedev-portfolio/index.html",
+    "main.a28be2f2.css.map": "/gamedev-portfolio/static/css/main.a28be2f2.css.map",
+    "main.03da306e.js.map": "/gamedev-portfolio/static/js/main.03da306e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a28be2f2.css",
+    "static/js/main.03da306e.js"
+  ]
+}
