@@ -2,7 +2,7 @@ import { MainContainer } from "./skills.styles";
 
 export function Skills() {
     return (
-      <MainContainer>
+      <MainContainer id="skills">
         <div>
           <h2 className="function">skills() {"{"}</h2>
           <div className="text-container">

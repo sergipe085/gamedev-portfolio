@@ -15,6 +15,10 @@
   --green: #99c794;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Lexend', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -31,9 +35,23 @@ main {
 	float: none !important; 
 }
 
+header {
+  max-width: 768px; 
+	margin: 0 auto !important; 
+	float: none !important;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  transition: transform 0.2s;
+}
+
+a:hover {
+  transform: scale(1.1);
 }
 
 .function {

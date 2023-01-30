@@ -2,7 +2,7 @@ import { MainContainer } from "./about.styles";
 
 export function About() {
     return (
-      <MainContainer>
+      <MainContainer id="about">
         <div>
           <h2 className="function">aboutMe() {"{"}</h2>
           <div className="text-container">

@@ -3,7 +3,9 @@ import "./header.scss"
 export function Header() {
   return (
     <header>
-      <a href="/home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
     </header>
   )
 }

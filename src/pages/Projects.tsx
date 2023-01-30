@@ -82,7 +82,7 @@ const projects = [
 
 export function Projects() {
     return (
-      <MainContainer>
+      <MainContainer id="projects">
         <div>
           <h2 className="function">projects() {"["}</h2>
           <div className="text-container">

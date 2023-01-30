@@ -1,4 +1,7 @@
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 1.5rem 2rem;
     height: 10vh;
     background-color: var(--secondary-background);
