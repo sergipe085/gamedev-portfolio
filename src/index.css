@@ -7,6 +7,12 @@
   --secondary-background: #fff;
   --primary-text: #fff;
   --secondary-text: #141414;
+
+  --function: #df4576;
+  --blue: #6699cc;
+  --white: #d4d4d4;
+  --purple: #c594c5;
+  --green: #99c794;
 }
 
 body {
@@ -28,4 +34,24 @@ main {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.function {
+  color: var(--function)
+}
+
+.blue {
+  color: var(--blue)
+}
+
+.white {
+  color: var(--white)
+}
+
+.purple {
+  color: var(--purple)
+}
+
+.green {
+  color: var(--green)
 }

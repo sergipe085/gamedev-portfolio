@@ -44,4 +44,8 @@ export const MainContainer = styled.main`
     h2 {
         font-size: 30px;
     }
+
+    a {
+        color: var(--purple);
+    }
 `;
