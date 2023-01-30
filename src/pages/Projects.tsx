@@ -1,3 +1,4 @@
+import Animated from "../components/Animated";
 import { MainContainer } from "./projects.styles";
 
 const projects = [
@@ -84,27 +85,33 @@ export function Projects() {
     return (
       <MainContainer id="projects">
         <div>
-          <h2 className="function">projects() {"["}</h2>
+          <Animated>
+            <h2 className="function">projects() {"["}</h2>
+          </Animated>
           <div className="text-container">
             {
               projects.map(project => {
                 return (
-                  <div key={project.videoName} className="element">
-                    <h1 className="white">{"<"} <span className="blue">{project.title}</span> {"/>"}</h1>
-                    <div className="video-container">
-                      <video controls width={420}>
-                        <source src={"/gamedev-portfolio/videos/" + project.videoName}></source>
-                      </video>
-                      <p className="white">{project.description}</p>
+                  <Animated>
+                    <div key={project.videoName} className="element">
+                      <h1 className="white">{"<"} <span className="blue">{project.title}</span> {"/>"}</h1>
+                      <div className="video-container">
+                        <video controls width={420}>
+                          <source src={"/gamedev-portfolio/videos/" + project.videoName}></source>
+                        </video>
+                        <p className="white">{project.description}</p>
+                      </div>
                     </div>
-                  </div>
+                  </Animated>
                 )
               })
             }
             
           </div>
           <br/>
-          <h2 className="function">{"]"}</h2>
+          <Animated>
+            <h2 className="function">{"]"}</h2>
+          </Animated>
         </div>
       </MainContainer>
     )
