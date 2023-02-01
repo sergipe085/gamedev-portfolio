@@ -97,7 +97,7 @@ export function Projects() {
                       <h1 className="white">{"<"} <span className="blue">{project.title}</span> {"/>"}</h1>
                       <div className="video-container">
                         <video controls width={420}>
-                          <source src={"/gamedev-portfolio/videos/" + project.videoName}></source>
+                          <source src={"/videos/" + project.videoName}></source>
                         </video>
                         <p className="white">{project.description}</p>
                       </div>
